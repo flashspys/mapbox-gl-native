@@ -10,12 +10,12 @@ Pod::Spec.new do |m|
   m.homepage          = 'https://www.mapbox.com/ios-sdk/'
   m.license           = { :type => 'BSD', :file => 'LICENSE.md' }
   m.author            = { 'Mapbox' => 'mobile@mapbox.com' }
-  m.screenshot        = "https://www.mapbox.com/ios-sdk/api/#{version}/img/screenshot.png"
+  m.screenshot        = "https://www.mapbox.com/ios-sdk/api/4.5.0/img/screenshot.png"
   m.social_media_url  = 'https://twitter.com/mapbox'
   m.documentation_url = 'https://www.mapbox.com/ios-sdk/api/'
 
   m.source = {
-    :http => "https://s3.cn-north-1.amazonaws.com.cn/binary.mapbox.cn/ios/builds/mapbox-ios-sdk-#{m.version.to_s}-dynamic.zip",
+    :http => "https://s3.cn-north-1.amazonaws.com.cn/binary.mapbox.cn/ios/builds/maps-sdk/mapbox-ios-sdk-#{m.version.to_s}.zip",
     :flatten => true
   }
   
